@@ -1,0 +1,88 @@
+.reset{
+  margin: 0;
+}
+body{
+  color: #666666;
+  background-color: #324359;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575.98px) {
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+  }
+  header{
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  .calculateButton{
+    text-align: center;
+  }
+  .calculateButton button{
+    width: 40%;
+    height: 35px;
+    background-color: #324359;
+    color: white;
+    border: 1px solid #324359;
+    border-radius: 5px;
+  }
+  .calculateButton button:hover{
+    background-color: #666666;
+  }
+  .loading {
+    background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+    width: 100%;
+    height: 150px;
+  }
+  #results{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .container{
+    width: 480px;
+    height: 480px;
+    background-color:white;
+    margin-top: 40px;
+    border: 1px solid #324359;
+    border-radius: 10px;
+
+  }
+  header{
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  .calculateButton{
+    text-align: center;
+  }
+  .calculateButton button{
+    width: 40%;
+    height: 35px;
+    background-color: #324359;
+    color: white;
+    border: 1px solid #324359;
+    border-radius: 5px;
+  }
+  .calculateButton button:hover{
+    background-color: #666666;
+  }
+  #cachingErrors{
+    padding-left: 15px;
+  }
+  .loading {
+    background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+    width: 100%;
+    height: 150px;
+  }
+  #results{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+}
+
+
